@@ -2,7 +2,7 @@
   "name": "black_candy",
   "private": true,
   "dependencies": {
-    "@rails/ujs": "^6.0.1",
+    "@rails/ujs": "^6.0.3",
     "@rails/webpacker": "^5.1.1",
     "howler": "^2.1.2",
     "stimulus": "^1.1.0",
