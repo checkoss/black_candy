@@ -49,7 +49,7 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
@@ -62,7 +62,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.15'
+  gem 'capybara', '~> 2.18', '>= 2.18.0'
   gem 'selenium-webdriver', '~> 3.142.6'
   gem 'webdrivers', '~> 4.1.3'
   gem 'webmock', '~> 3.6.2', require: false
