@@ -25,7 +25,7 @@ gem 'pagy', '~> 3.5.0'
 # gem 'redis', '~> 4.0'
 
 # For image attachment
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.0', '>= 2.0.1'
 # For API request
 gem 'httparty', '~> 0.17.0'
 # For browser detection
@@ -62,7 +62,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.15'
+  gem 'capybara', '~> 2.18', '>= 2.18.0'
   gem 'selenium-webdriver', '~> 3.142.6'
   gem 'webdrivers', '~> 4.1.3'
   gem 'webmock', '~> 3.6.2', require: false
