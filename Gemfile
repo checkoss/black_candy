@@ -16,7 +16,7 @@ gem 'bcrypt', '~> 3.1.11'
 # Get meta data from audio file
 gem 'wahwah', '~> 1.1.1'
 # Use sidekiq for backgroud job
-gem 'sidekiq', '~> 6.0.0'
+gem 'sidekiq', '~> 6.4.0'
 # Server-side support for Turbolinks redirection.
 gem 'turbolinks', '~> 5.2.1'
 # Pagination
