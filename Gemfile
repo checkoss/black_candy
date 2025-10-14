@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.2.1'
+gem 'rails', '~> 6.0.2.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1.3'
 # Use Puma as the app server
 gem 'puma', '~> 4.3.1'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 5.1.1'
+gem 'webpacker', '~> 5.2.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.9.1'
 # Use ActiveModel has_secure_password
@@ -16,7 +16,7 @@ gem 'bcrypt', '~> 3.1.11'
 # Get meta data from audio file
 gem 'wahwah', '~> 1.1.1'
 # Use sidekiq for backgroud job
-gem 'sidekiq', '~> 6.0.0'
+gem 'sidekiq', '~> 6.0.1'
 # Server-side support for Turbolinks redirection.
 gem 'turbolinks', '~> 5.2.1'
 # Pagination
@@ -49,7 +49,7 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 4.0.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
@@ -62,7 +62,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.15'
+  gem 'capybara', '~> 3.0', '>= 3.0.0'
   gem 'selenium-webdriver', '~> 3.142.6'
   gem 'webdrivers', '~> 4.1.3'
   gem 'webmock', '~> 3.6.2', require: false
